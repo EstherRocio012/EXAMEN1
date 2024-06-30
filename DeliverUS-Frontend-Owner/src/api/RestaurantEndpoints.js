@@ -24,7 +24,7 @@ function remove (id) {
 }
 // Solution promoted
 function promote (id) {
-  return patch(`restaurants/${id}`)
+  return patch(`restaurants/${id}/promote`)
 }
 
 export { getAll, getDetail, getRestaurantCategories, create, update, remove, promote }
